@@ -1,0 +1,13 @@
+.adminSideber {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    height: 100vh;
+  }
+  .adminSideberItem {
+    background-color: rgb(97, 90, 104);
+  }
+  .adminSideberNavber {
+      height: 60px;
+      background: rgb(88, 90, 194);
+    }
+  

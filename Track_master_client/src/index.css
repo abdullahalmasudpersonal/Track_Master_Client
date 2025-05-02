@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* optional Scrollbar হাইড/স্টাইল */
+/* body {
+    scrollbar-width: thin;
+    scrollbar-color: #888 #f9f9f9;
+  }
+   */
+
+
+/* সাধারণত এটা সবার জন্য গ্লোবালি সেট করা হয়: */
+/* 
+এটি করলে সব HTML এলিমেন্ট border-box অনুযায়ী কাজ করবে এবং margin/padding/border-এর কারণে layout ভেঙে পড়বে না।
+*/
+/* *,
+*::before,
+*::after {
+  box-sizing: border-box;
+} */
